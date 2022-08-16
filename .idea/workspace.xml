@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b18c3f22-539a-4d9c-93bf-ce14f0f15b87" name="Changes" comment="rocketmq 开发完成">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_redis/src/main/java/com/study/redis/RedisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_redis/src/main/java/com/study/redis/jedis/JedisApiDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_redis/src/main/java/com/study/redis/jedis/JedisDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_redis/src/main/java/com/study/redis/spring_boot/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_redis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/batch/SimpleBatchProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/batch/SplitBatchProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/benchmark/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/benchmark/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/benchmark/TransactionProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/broadcast/PushConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/filter/SqlFilterConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/filter/SqlFilterProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/filter/TagFilterConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/filter/TagFilterProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/namespace/ProducerWithNamespace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/namespace/PullConsumerWithNamespace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/namespace/PushConsumerWithNamespace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/operation/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/operation/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/ordermessage/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/ordermessage/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/quickstart/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/quickstart/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/rpc/AsyncRequestProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/rpc/RequestProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/rpc/ResponseConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/simple/AclClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/simple/AsyncProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/simple/CachedQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/simple/LitePullConsumerAssign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/simple/LitePullConsumerSubscribe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/simple/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/simple/PullConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/simple/PullConsumerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/simple/PullScheduleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/simple/PushConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/simple/RandomAsyncCommit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/simple/TestProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/tracemessage/TraceProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/tracemessage/TracePushConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/transaction/TransactionListenerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api/transaction/TransactionProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/sc/basic/ScConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/sc/basic/ScProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/sc/controller/MQTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/springboot/basic/SpringConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/springboot/basic/SpringProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/springboot/config/ExtRocketMQTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/springboot/config/MyTransactionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/springboot/controller/MQTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/springboot/domain/OrderPaidEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/springboot/domain/ProductWithPayload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/springboot/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_web_rocketmq/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/java_web_rocketmq/src/main/resources/application.properties" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2C1BPInvpLq1qdsugDYm37FOPT2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/jay/Documents/code/my_code/java/java_web_learning/java_web_rocketmq/src/main/java/com/study/rocketmq/sc",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.fileTypes"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/sc" />
+      <recent name="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/springboot" />
+      <recent name="$PROJECT_DIR$/java_web_rocketmq/src/main/java/com/study/rocketmq/api" />
+      <recent name="$PROJECT_DIR$/java_web_rocketmq/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RocketMQApplication">
+    <configuration name="JedisDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.redis.jedis.JedisDemo" />
+      <module name="java_web_redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.redis.jedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.redis.RedisApplication" />
+      <module name="java_web_redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RocketMQApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.rocketmq.RocketMQApplication" />
+      <module name="java_web_rocketmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.rocketmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RocketMQApplication" />
+        <item itemvalue="Application.RedisApplication" />
+        <item itemvalue="Application.JedisDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b18c3f22-539a-4d9c-93bf-ce14f0f15b87" name="Changes" comment="" />
+      <created>1657960185835</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657960185835</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rocketmq 开发完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="rocketmq 开发完成" />
+  </component>
+</project>
