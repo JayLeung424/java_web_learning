@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18c3f22-539a-4d9c-93bf-ce14f0f15b87" name="Changes" comment="rocketmq 开发完成">
-      <change afterPath="$PROJECT_DIR$/java_web_redis/src/main/java/com/study/redis/jedis/CRC16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_web_redis/src/main/java/com/study/redis/jedis/JedisClusterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_web_redis/src/main/java/com/study/redis/jedis/JedisSentinelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_web_redis/src/main/java/com/study/redis/jedis/JedisSingleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_web_redis/src/main/java/com/study/redis/jedis/bf/BloomFilterHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_web_redis/src/main/java/com/study/redis/jedis/bf/JedisBloomFilterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_web_redis/src/main/java/com/study/redis/jedis/bf/RedisBloomFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_web_redis/src/main/java/com/study/redis/lock/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_web_redis/src/main/java/com/study/redis/lock/RedissonBloomFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b18c3f22-539a-4d9c-93bf-ce14f0f15b87" name="Changes" comment="redis 代码开发scheduleExpirationRenewal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_web_redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_web_redis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_web_redis/src/main/java/com/study/redis/jedis/JedisApiDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_web_redis/src/main/java/com/study/redis/jedis/demo/JedisApiDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_web_redis/src/main/java/com/study/redis/jedis/JedisDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_web_redis/src/main/java/com/study/redis/jedis/demo/JedisDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_web_redis/src/main/java/com/study/redis/lock/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_web_redis/src/main/java/com/study/redis/lock/IndexController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,19 +37,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/jay/Documents/code/my_code/java/java_web_learning/java_web_redis/src/main/java/com/study/redis/jedis",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jay/Documents/code/my_code/java/java_web_learning/java_web_redis/src/main/java/com/study/redis/jedis&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/java_web_redis/src/main/java/com/study/redis/jedis" />
@@ -87,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660635825089</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="redis 代码开发">
+      <created>1662621044750</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662621044750</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +98,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="rocketmq 开发完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="rocketmq 开发完成" />
+    <MESSAGE value="redis 代码开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis 代码开发" />
   </component>
 </project>

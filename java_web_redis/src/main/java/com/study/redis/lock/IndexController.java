@@ -1,16 +1,9 @@
 package com.study.redis.lock;
 
-import io.netty.util.Timeout;
-import io.netty.util.TimerTask;
 import org.redisson.Redisson;
-import org.redisson.RedissonBaseLock;
 import org.redisson.RedissonRedLock;
-import org.redisson.api.RFuture;
 import org.redisson.api.RLock;
 import org.redisson.api.RReadWriteLock;
-import org.redisson.client.codec.LongCodec;
-import org.redisson.client.protocol.RedisCommands;
-import org.redisson.client.protocol.RedisStrictCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.util.StringUtils;
@@ -18,9 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Collections;
 import java.util.UUID;
-import java.util.concurrent.CompletionStage;
 import java.util.concurrent.TimeUnit;
 
 @RestController
